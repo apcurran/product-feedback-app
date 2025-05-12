@@ -1,0 +1,12 @@
+{
+  "name": "product-feedback-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "",
+    "start": "node server.js"
+  },
+  "author": "Alex Curran",
+  "license": "ISC"
+}
