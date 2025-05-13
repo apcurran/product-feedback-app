@@ -5,6 +5,7 @@
   "main": "server.js",
   "scripts": {
     "test": "",
+    "lint": "npx eslint .",
     "start": "node server.js"
   },
   "author": "Alex Curran",
