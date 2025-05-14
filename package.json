@@ -18,5 +18,10 @@
     "eslint": "^9.26.0",
     "eslint-plugin-react": "^7.37.5",
     "globals": "^16.1.0"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "express": "^5.1.0",
+    "pg-promise": "^11.13.0"
   }
 }
