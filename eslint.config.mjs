@@ -5,6 +5,7 @@ import json from "@eslint/json";
 import css from "@eslint/css";
 import { defineConfig } from "eslint/config";
 import stylistic from "@stylistic/eslint-plugin";
+import markdown from "@eslint/markdown";
 
 export default defineConfig([
     { files: ["**/*.{js,mjs,cjs,jsx}"], plugins: { js }, extends: ["js/recommended"] },
@@ -28,4 +29,5 @@ export default defineConfig([
             "@stylistic/eol-last": ["error", "always"],
         },
     },
+    ...markdown.configs.recommended,
 ]);
