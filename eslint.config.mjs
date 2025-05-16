@@ -26,6 +26,7 @@ export default defineConfig([
             "@stylistic/brace-style": ["error", "1tbs"],
             "@stylistic/arrow-parens": ["error", "always"],
             "@stylistic/comma-dangle": ["error", "always-multiline"],
+            "@stylistic/comma-spacing": ["error", { "before": false, "after": true }],
             "@stylistic/eol-last": ["error", "always"],
         },
     },
